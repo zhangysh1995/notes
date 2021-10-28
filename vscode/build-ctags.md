@@ -1,3 +1,5 @@
+## vscode 代码索引
+
 *  vscode c++ 插件和 Intellisense 丢失大量 symbol，跳转失效或者错误
 * ！解决方案，卸载所有官方 c++ 插件，安装[C/C++ GNU Global](https://marketplace.visualstudio.com/items?itemName=jaycetyle.vscode-gnu-global)
 	*  centos：`sudo yum install gloabl-ctags -y`
@@ -9,3 +11,5 @@
     "gnuGlobal.globalExecutable": "/usr/bin/global",
     "gnuGlobal.gtagsExecutable": "/usr/bin/gtags"`
 ````
+
+*  更新：问题没有完全解决，索引依然丢失一部分
